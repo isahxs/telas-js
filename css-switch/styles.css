@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap%27');
+ 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ 
+body{
+background-color: #D6C1AE;
+font-family: "Ms Madi", sans-serif;
+ 
+}
+ 
+.switch-container{
+height: 100vh;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+ 
+.container{
+background-color: #8c5f45;
+width: 500px;
+padding: 25px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+ 
+.titulo{
+font-size: 60px;
+color: white;
+text-align: center;
+}
+ 
+select{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+#opcao{
+margin-bottom: 5px;
+border-radius: 10px;
+padding: 5px;
+}
+ 
+#resultado{
+color: white;
+font-size: 30px;
+}
+ 
+button{
+padding: 5px;
+border-radius: 10px;
+}

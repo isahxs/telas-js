@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de encomendas</title>
+    <link rel="stylesheet" href="./css encomendas/styles.css">
+</head>
+<body>
+ 
+    <h1>Encomendas de Bolo de Pote</h1>
+ 
+    <div class="container">
+        <div class="card">
+            <h2>Período Manhã</h2>
+            <input type="number" id="input-manha" placeholder="Quantidade">
+            <button onclick="adicionarPedido('manha')">Adicionar</button>
+            <div id="lista-manha" class="numeros-display"></div>
+        </div>
+ 
+        <div class="card">
+            <h2>Período Tarde</h2>
+            <input type="number" id="input-tarde" placeholder="Quantidade">
+            <button onclick="adicionarPedido('tarde')">Adicionar</button>
+            <div id="lista-tarde" class="numeros-display"></div>
+        </div>
+ 
+        <div class="card card-total">
+            <h2>Total Combinado</h2>
+            <div id="valor-total" class="total-destaque">0</div>
+            <small>Soma de todos os pedidos</small>
+        </div>
+ 
+        <div class="card btn-zerar" onclick="zerarTudo()">
+            <h2>Limpar Tudo</h2>
+            <div class="icone">🗑️</div>
+        </div>
+    </div>
+ 
+    <script src="./js-encomendas/script.js"></script>
+</body>
+</html>

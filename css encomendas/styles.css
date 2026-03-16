@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+ 
+body {
+    background-color: #D6C1AE;
+    font-family: "Ms Madi", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+ 
+h1 {
+    background-color: #bfada3;
+    border-radius: 50px;
+    color: #592a0f;
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+ 
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; }
+ 
+.card {
+    background-color: #5a3e2b;
+    color: white;
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+ 
+input {
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+button {
+    background-color: #bfada3;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+ 
+button:hover {
+    background-color: #c48b56;
+}
+ 
+.numeros-display {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #dfbba7;
+    min-height: 20px;
+}
+ 
+.total-destaque {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+ 
+.btn-zerar {
+    background-color: #5a3e2b;
+    cursor: pointer;
+}
+ 
+.btn-zerar:hover {
+    background-color: #a71d2a;
+}
+.icone {
+    margin-top: 50px;
+}

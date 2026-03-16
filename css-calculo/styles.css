@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+:root {
+    --background: #f5e6d3;
+    --fonte: #5a3e2b;
+    --fonte2: #f2eeeb;
+}
+
+ 
+body {
+    background-color: #D6C1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 80px;
+ 
+}
+ 
+.container{
+    background: #8C5F45;
+    border-radius: 10px;
+    padding: 60px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+ 
+h1 {
+    color: var(--fonte2);
+    text-align: center;
+    margin: 0 0 5px 0;
+    font-family: 'Story Script', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.calculo {
+    margin-bottom: 15px;
+}
+ 
+.calculo label {
+    display: block;
+    color:  var(--fonte2);
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+ 
+.calculo .input {
+    width: 90%;
+    max-width: 280px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--fonte);
+    font-size: 16px;
+}
+ 
+button {
+    width: 90%;
+    max-width: 280px;
+    padding: 12px;
+    background-color: #A67f68;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0 20px;
+}
+ 
+button:hover {
+    background-color: #c48b56;
+}
+ 
+.resultado {
+    width: 90%;
+    max-width: 280px;
+    background-color: var(--background);
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--fonte);
+    font-size: 14px;
+    line-height: 1.8;
+    cursor: pointer;
+}

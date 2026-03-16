@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+body {
+  background-color: #D6C1AE;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.linha-menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;        
+}
+ 
+.linha-menu span {
+  height: 10px;
+  flex: 2;
+  border-radius: 4px;
+}
+ 
+.linha-esq { background-color: #732257; }
+.linha-dir { background-color: #6d76a6; }
+ 
+.logo-menu {
+  width: 170px;
+  margin: 0 10px;
+}
+ 
+
+.button {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+}
+ 
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  padding: 18px 25px;
+  background-color: #8C5F45;
+  color: white;
+  font-family: 'Story Script', sans-serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+ 
+.btn:hover {
+  background-color: #c48b56;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+ 
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+@media (max-width: 480px) {
+  .btn {
+    font-size: 1rem;
+    padding: 15px 20px;
+  }
+  .logo-menu {
+    width: 130px;
+  }
+}
+ 
